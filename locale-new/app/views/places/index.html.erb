@@ -1,0 +1,43 @@
+<p id="notice"><%= notice %></p>
+
+<h1 class="center-align #fffffff white-text">Localé</h1>
+<!-- <table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Streetname</th>
+      <th>Plocation</th>
+      <th>Details</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @places.each do |place| %>
+      <tr>
+        <td><%= place.title %></td>
+        <td><%= place.description %></td>
+        <td><%= place.streetname %></td>
+        <td><%= place.plocation %></td>
+        <td><%= place.details %></td>
+        <td><%= link_to 'Show', place %></td>
+        <td><%= link_to 'Edit', edit_place_path(place) %></td>
+        <td><%= link_to 'Destroy', place, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table> -->
+
+<br>
+<div class="center-align">
+  <h4 class="#ffffff white-text">Locale helps you to find places that you never knew existed.</h4>
+  <br>
+  <br>
+  <br>
+  <br>  
+</div>
+<div class="center-align">
+  <a class="waves-effect waves-light btn-large #0d47a1 blue darken-4" <%= link_to 'Add A Locale', new_place_path %>
+  </a>
+</div>
